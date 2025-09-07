@@ -12,6 +12,7 @@
     ./boot.nix
     ./hardware.nix
     ./packages.nix
+    ./zfs.nix
   ];
 
   networking.hostName = "zfs-test";
