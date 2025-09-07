@@ -19,6 +19,7 @@
 
   services = {
     nginx.enable = true;
+    openssh.ports = [ 22 ];
   };
 
   normalUsers = {
